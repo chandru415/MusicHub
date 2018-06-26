@@ -6,7 +6,6 @@ import { NoAccessComponent } from './components/no-access/no-access.component';
 
 const routes: Routes = [
   {path: '', component: LandingComponent, children: [
-   // {path: '', component: LandingComponent},
     {path: 'noaccess', component: NoAccessComponent},
     {path: '**', component: PageNotFoundComponent}
   ]}
